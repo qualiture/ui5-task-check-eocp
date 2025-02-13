@@ -1,0 +1,28 @@
+{
+  "name": "ui5-task-check-eocp",
+  "version": "0.0.1",
+  "description": "Checks the used UI5 version and prints a warning when it reaches End of Cloud Provisioning",
+  "author": "Qualiture",
+  "license": "MIT",
+  "homepage": "https://github.com/qualiture/ui5-task-check-eocp#readme",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qualiture/ui5-task-check-eocp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qualiture/ui5-task-check-eocp/issues"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "semver": "^7.7.1"
+  },
+  "keywords": [
+    "sapui5",
+    "openui5",
+    "ui5",
+    "btp"
+  ]
+}

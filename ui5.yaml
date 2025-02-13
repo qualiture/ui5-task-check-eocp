@@ -1,0 +1,8 @@
+# https://github.com/qualiture/ui5-task-check-eocp
+specVersion: "3.0"
+metadata:
+  name: ui5-task-check-eocp
+kind: extension
+type: task
+task:
+  path: lib/check-eocp.js
