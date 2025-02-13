@@ -37,12 +37,13 @@ builder:
 
 ## How it works
 
-The task checks the application's UI5 version (as specified in the `ui5.yaml` file), and matches it with the UI5 versions avaliable. If the current date is within (or after) the End of Cloud Provisioning quarter, it prints a warning during the `ui5 build` execution.
+The task checks the application's UI5 version (as specified in the `ui5.yaml` file), and matches it with the UI5 versions available (these are retrieved from http://ui5.sap.com). If the current date is within (or after) the End of Cloud Provisioning quarter, it prints a warning during the `ui5 build` execution.
 
-**NB: It does not stop the process from executing. It is the developer's responibility to proceed and update the UI5 version at will.**
+**NB: In case of expired provisioning date, the task does not halt the `ui5 build` process from executing. It is the developer's responsibility to proceed and update the UI5 version at will.**
+
 
 ## Licence
 
 Standard MIT license
 
-If you find this extension useful, buy Qualiture (Robin van het Hof) a beer when you see him ;-)
+If you find this extension useful, buy Qualiture (Robin van het Hof) a beer when you see him 🙂
