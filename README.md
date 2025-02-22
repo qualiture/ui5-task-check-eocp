@@ -32,8 +32,12 @@ builder:
   - name: ui5-task-check-eocp
     afterTask: replaceVersion
     configuration:
-      debug: true
+      failOnEocp: true
 ```
+
+## Configuration options (in `$yourapp/ui5.yaml`)
+
+- failOnEocp: `boolean` (default: `false`) When set to `true`, it will fail the build. Also, due to the async nature of the check, make this task the first and all others dependent in this task using the `afterTask` setting.
 
 ## How it works
 
