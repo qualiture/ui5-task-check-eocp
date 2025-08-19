@@ -1,6 +1,6 @@
 {
   "name": "ui5-task-check-eocp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Checks the used UI5 version and prints a warning when it reaches End of Cloud Provisioning",
   "author": "Qualiture",
   "license": "MIT",
