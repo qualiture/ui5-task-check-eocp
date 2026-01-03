@@ -6,7 +6,8 @@
   "license": "MIT",
   "homepage": "https://github.com/qualiture/ui5-task-check-eocp#readme",
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
     "url": "https://github.com/qualiture/ui5-task-check-eocp/issues"
   },
   "dependencies": {
-    "semver": "^7.7.1"
+    "semver": "^7.7.3"
   },
   "keywords": [
     "sapui5",
